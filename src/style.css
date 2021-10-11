@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+  width: 35%;
+  height: 600px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconUno {
+  font-size: 100px;
+  padding-left: 30px;
+}
+.num {
+  text-align: center;
+
+  font-size: 200px;
+}
+
+.iconDos {
+  padding-left: 30px;
+  font-size: 100px;
+  transform: rotate(-180deg);
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
